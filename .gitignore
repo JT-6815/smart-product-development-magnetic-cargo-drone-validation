@@ -1,0 +1,19 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Office temp files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Output archives
+*.zip
+*.7z
