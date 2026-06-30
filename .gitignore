@@ -14,6 +14,3 @@ __pycache__/
 # Logs
 *.log
 
-# Output archives
-*.zip
-*.7z

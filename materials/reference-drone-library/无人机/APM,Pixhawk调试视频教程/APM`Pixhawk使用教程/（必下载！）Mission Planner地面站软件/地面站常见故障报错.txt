@@ -1,0 +1,25 @@
+解锁故障提示： 
+safe switch：安全开关未关闭，长按至灯长亮 
+RC not calibrated ：遥控器没有校准 
+inconsistent  compass… ：加速度计重新校准（校准时箭头需始终对着一个方向）
+Baro not healthy：气压计不健康 
+Alt disparity：气压计与惯性导航系统的高度不一致超过2米以上，这一消息通常是短暂的，当飞行控制器首次插入或如果它接收到一个硬的颠簸发生，如果没有消失，加速度计或许需要校准，或者气压计有故障 
+Compass not healthy : 罗盘不健康 ，重新校准罗盘
+Compass not calibrated : 罗盘没有校准 
+Compass offsets too high : 罗盘偏移值太大，也许是附近有金属或者其他干扰 
+Check mag field：所感测的磁场在该区域中的磁场是35%高于或低于预期值，需要重新校准罗盘 
+Compasses inconsistent : 内部和外部的罗盘指向不同的方向（从大于45度），通常是GPS外置罗盘放置位置不一致 
+GPS Glitch : GPS故障，当选择的飞行模式需要GPS定位，或者开启地理围栏，此时GPS没有定位会有此提示 
+Need 3D Fix ：检查地理围栏是否关闭，（若无法解决，请重刷固件）
+Bad Velocity :检查飞行模式是否为自稳，检查地理围栏是否关闭
+High GPS HDOP : 检查飞行模式是否为自稳，检查地理围栏是否关闭
+INS not calibrated: 加速度计没有校准 
+Accels not healthy:加速度计不健康，可能硬件问题，可能发生在刷新固件没有重启 
+Accels inconsistent: 加速度计不一致超过1m/s/s ，重新校准加速度计
+Gyros not healthy: 陀螺不正常，可能硬件问题，可能发生在刷新固件没有重启 
+Gyro cal failed:陀螺仪校准未能捕捉偏移，这个由于启动校准时候移动了飞控，在红蓝闪烁就是校准时刻 :陀螺不一致超过20deg/sec 
+Check Board Voltage:检查板上电压，应该在4.3V到5.8V之间，如果通过USB供电，请尝试更换端口或者线缆 
+Ch7&Ch8 Opt cannot be same:7/8通道不能设置一致 Check FS_THR_VALUE:3通道最低值太接近失控保护值 
+Check ANGLE_MAX: 控制飞控的最大倾斜角度设定在10度以下的angle_max参数（即1000）或80度以上（即8000）。 
+ACRO_BAL_ROLL/PITCH:acro_bal_roll参数高于自稳Roll P和/或acro_bal_pitch参数高于自稳Pitch P 值。
+Bad Gyro Health：重新刷固件（必须先刷固定翼固件，再刷多轴）、
